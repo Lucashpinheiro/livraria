@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+:root {
+    --primary-color: #F1F1F1;
+    --secondary-color: #002379;
+    --secundary-font: font-family: "Sedan SC", serif;
+}
+
+.cover {
+    height: 80px;
+}
+
+.carousel {
+    margin-bottom: 32px;
+}
+
+.container.carousel {
+    margin-top: 44px;
+}
+
+body {
+    background-color: var(--primary-color);
+}
+
+h3 {
+    font-family: var(--secundary-font);
+    margin: 32px;
+    color: var(--secondary-color);
+}
+
+.books {
+    margin: 16px 0;
+}
